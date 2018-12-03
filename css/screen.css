@@ -252,7 +252,7 @@ body {
 }
 /* line 30, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide .space {
-  background: red;
+  background: teal;
 }
 /* line 35, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .images-details {
