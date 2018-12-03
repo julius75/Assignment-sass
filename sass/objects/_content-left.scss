@@ -27,6 +27,7 @@
             .subdivide{
                 display: grid;
                 background: wheat;
+                margin-top: 1px;
                 .space{
                     background:teal;
                 }
@@ -41,7 +42,36 @@
         }
         .subdivide--right{
             background: brown;
-           
+            display: grid;
+            .grand-prix{
+                display: grid;
+                background: whitesmoke;
+                padding: 10px;
+
+                .next{
+                    background: burlywood;
+                }
+                .previous{
+                    border-bottom: 1px solid;
+                }
+            }
+            .quotes-details{
+                display: grid;
+
+                .adds{
+                    padding: 15px;
+                    background: darkslateblue;
+                }
+                .quotes{
+                    padding: 25px;
+                    background: rebeccapurple;
+                }
+            }
+            .twitter-details{
+                display: grid;
+                background: lightblue;
+                padding: 20px;
+            }
         }
     }
 }

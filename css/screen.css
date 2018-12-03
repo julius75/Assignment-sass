@@ -249,17 +249,60 @@ body {
 .content--left .content--left__subdivide .subdivide--left .subdivide {
   display: grid;
   background: wheat;
+  margin-top: 1px;
 }
-/* line 30, ../sass/objects/_content-left.scss */
+/* line 31, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide .space {
   background: teal;
 }
-/* line 35, ../sass/objects/_content-left.scss */
+/* line 36, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .images-details {
   display: grid;
   background: gold;
 }
-/* line 42, ../sass/objects/_content-left.scss */
+/* line 43, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--right {
   background: brown;
+  display: grid;
+}
+/* line 46, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix {
+  display: grid;
+  background: whitesmoke;
+  padding: 10px;
+}
+/* line 51, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .next {
+  background: burlywood;
+}
+/* line 54, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .grand-prix .previous {
+  border-bottom: 1px solid;
+}
+/* line 58, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .quotes-details {
+  display: grid;
+}
+/* line 61, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .quotes-details .adds {
+  padding: 15px;
+  background: darkslateblue;
+}
+/* line 65, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .quotes-details .quotes {
+  padding: 25px;
+  background: rebeccapurple;
+}
+/* line 70, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--right .twitter-details {
+  display: grid;
+  background: lightblue;
+  padding: 20px;
+}
+
+/* line 1, ../sass/objects/_footer.scss */
+.footer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 10px;
 }
