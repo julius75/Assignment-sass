@@ -1,6 +1,7 @@
 .section{
     display: grid;
     grid-template-columns:65% 35%;
+    grid-auto-rows: 387px;
     
     .section--featured{
         background: yellowgreen;
@@ -10,6 +11,5 @@
     .section--top-stories{
         background: lightcoral;
         text-align: center;
-        padding: 150px;
     }
 }

@@ -4,6 +4,7 @@
     .belgium{
         display: grid;
         grid-template-columns: 50% 50%;
+        grid-auto-rows: 170px;
 
         .belgium--rating{
             background: white;
@@ -15,23 +16,23 @@
     .opinion{
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-gap: 10px;
+        grid-auto-rows: 180px;
     }
 
     .news{
-        padding: 15px;
+        height: 40px;
         background: darkslateblue;
     }
     .column-feature{
         display: grid;
         grid-template-columns: 30% 70%;
         background: gray;
-        padding: 40px;
+        grid-auto-rows: 120px;
     }
     .column-photo{
         display: grid;
         background: darkgrey;
-        padding: 40px;
+        grid-auto-rows: 200px;
 
         .column-photo--image{
             text-align: center;

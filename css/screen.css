@@ -87,24 +87,23 @@ body {
   display: grid;
   grid-template-columns: 25% 75%;
   grid-auto-rows: 50px 50px;
-  width: 100%;
-  top: 0;
+  grid-auto-rows: 80px;
 }
-/* line 8, ../sass/objects/_header.scss */
+/* line 7, ../sass/objects/_header.scss */
 .header .header--logo {
   grid-row: 1/3;
   background: cadetblue;
 }
-/* line 12, ../sass/objects/_header.scss */
+/* line 11, ../sass/objects/_header.scss */
 .header .header--links {
   background: cyan;
   align-items: center;
 }
-/* line 16, ../sass/objects/_header.scss */
+/* line 15, ../sass/objects/_header.scss */
 .header .header--signs {
   background: lightcyan;
 }
-/* line 19, ../sass/objects/_header.scss */
+/* line 18, ../sass/objects/_header.scss */
 .header .header--flag {
   grid-column: 1/3;
   background: fuchsia;
@@ -115,18 +114,18 @@ body {
 .section {
   display: grid;
   grid-template-columns: 65% 35%;
+  grid-auto-rows: 387px;
 }
-/* line 5, ../sass/objects/_section.scss */
+/* line 6, ../sass/objects/_section.scss */
 .section .section--featured {
   background: yellowgreen;
   text-align: center;
   border-right: 1px solid;
 }
-/* line 10, ../sass/objects/_section.scss */
+/* line 11, ../sass/objects/_section.scss */
 .section .section--top-stories {
   background: lightcoral;
   text-align: center;
-  padding: 150px;
 }
 
 /* line 1, ../sass/objects/_content.scss */
@@ -153,63 +152,64 @@ body {
 .content__right .belgium {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-auto-rows: 170px;
 }
-/* line 8, ../sass/objects/_content-right.scss */
+/* line 9, ../sass/objects/_content-right.scss */
 .content__right .belgium .belgium--rating {
   background: white;
 }
-/* line 11, ../sass/objects/_content-right.scss */
+/* line 12, ../sass/objects/_content-right.scss */
 .content__right .belgium .belgium--engine {
   background: yellow;
 }
-/* line 15, ../sass/objects/_content-right.scss */
+/* line 16, ../sass/objects/_content-right.scss */
 .content__right .opinion {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-gap: 10px;
+  grid-auto-rows: 180px;
 }
-/* line 21, ../sass/objects/_content-right.scss */
+/* line 22, ../sass/objects/_content-right.scss */
 .content__right .news {
-  padding: 15px;
+  height: 40px;
   background: darkslateblue;
 }
-/* line 25, ../sass/objects/_content-right.scss */
+/* line 26, ../sass/objects/_content-right.scss */
 .content__right .column-feature {
   display: grid;
   grid-template-columns: 30% 70%;
   background: gray;
-  padding: 40px;
+  grid-auto-rows: 120px;
 }
-/* line 31, ../sass/objects/_content-right.scss */
+/* line 32, ../sass/objects/_content-right.scss */
 .content__right .column-photo {
   display: grid;
   background: darkgrey;
-  padding: 40px;
+  grid-auto-rows: 200px;
 }
-/* line 36, ../sass/objects/_content-right.scss */
+/* line 37, ../sass/objects/_content-right.scss */
 .content__right .column-photo .column-photo--image {
   text-align: center;
 }
-/* line 40, ../sass/objects/_content-right.scss */
+/* line 41, ../sass/objects/_content-right.scss */
 .content__right .video-gallery {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 50px;
 }
 
-/* line 47, ../sass/objects/_content-right.scss */
+/* line 48, ../sass/objects/_content-right.scss */
 .content__opinions {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 33.3% 33.3% 33.3%;
   grid-gap: 10px;
 }
-/* line 53, ../sass/objects/_content-right.scss */
+/* line 54, ../sass/objects/_content-right.scss */
 .content__opinions .content__opinions--ex {
   background: navajowhite;
   padding: 5px;
 }
-/* line 57, ../sass/objects/_content-right.scss */
+/* line 58, ../sass/objects/_content-right.scss */
 .content__opinions .content__opinions--o {
   background: navy;
   padding: 5px;
@@ -304,5 +304,6 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  margin: 10px;
+  margin-top: 50px;
+  grid-auto-rows: 200px;
 }

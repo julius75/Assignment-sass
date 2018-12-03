@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 25% 75%;
     grid-auto-rows: 50px 50px;
-    width: 100%; 
-    top: 0;
+    grid-auto-rows: 80px;
     
     .header--logo{
         grid-row: 1/3;
