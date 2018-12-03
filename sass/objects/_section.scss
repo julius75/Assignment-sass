@@ -1,0 +1,15 @@
+.section{
+    display: grid;
+    grid-template-columns:65% 35%;
+    
+    .section--featured{
+        background: yellowgreen;
+        text-align: center;
+        border-right: 1px solid;
+    }
+    .section--top-stories{
+        background: lightcoral;
+        text-align: center;
+        padding: 150px;
+    }
+}
